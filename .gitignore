@@ -1,0 +1,55 @@
+# Unity - cache & generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Visual Studio
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+
+# JetBrains Rider
+.idea/
+*.sln.DotSettings
+
+# VS Code
+.vscode/
+
+# Unity Cloud / Collaborate
+*.mt
+*.mt.meta
+*.mf
+.cloudconfig
+/CloudProjectSettings/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Build outputs
+*.apk
+*.aab
+*.exe
+*.app
+*.unitypackage
+*.zip
+
+# External resources (docs & PDFs, not needed in repo)
+/Ressources/
+
+# Crash & coverage
+crashlytics-build.properties

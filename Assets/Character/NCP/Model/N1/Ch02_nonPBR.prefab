@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1512558330168886819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.518829
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.050008312
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.014786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_Name
+      value: Ch02_nonPBR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 87a413d451f80074d80e5ae56085c877, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6033479408679707950}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5248905158797141681}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1417661142417791362}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3698993453521545735}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5810949002199040779}
+  m_SourcePrefab: {fileID: 100100000, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+--- !u!4 &367325760741997441 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1289347931855797666, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+  m_PrefabInstance: {fileID: 1512558330168886819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1746488563904248690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 95ee59ac927079e4aab6fbdc2d6380c3, type: 3}
+  m_PrefabInstance: {fileID: 1512558330168886819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &6033479408679707950
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746488563904248690}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.3
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0.5
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!82 &5248905158797141681
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746488563904248690}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1417661142417791362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746488563904248690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e284b0b68304b4aa9131e3cac8e441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlashFriends.NpcController
+  personality: 0
+  wanderRadius: 8
+  wanderInterval: 4
+  walkSpeed: 2
+  fleeSpeed: 6
+  fearReactionDuration: 1.5
+  fleeDuration: 5
+  chanceIgnore: 0.34
+  chanceFlee: 0.33
+  fleeClips:
+  - {fileID: 8300000, guid: 18e11eaa87d199d4b9a0749ea4aa03e6, type: 3}
+  - {fileID: 8300000, guid: c5d147ae9e4c0fb4c9fd5298a688c0a4, type: 3}
+  - {fileID: 8300000, guid: eecc2156d86db6b44ad7649c44259f04, type: 3}
+  - {fileID: 8300000, guid: 45ff251289b048c459d7db9b64a2df87, type: 3}
+  - {fileID: 8300000, guid: 125276327c6446d48824026f919acd3c, type: 3}
+  angryClips:
+  - {fileID: 8300000, guid: 96066704d7903f04c8a77ba595d1572e, type: 3}
+  - {fileID: 8300000, guid: 20c0dc2e3c569944cbf56da3a15877e3, type: 3}
+  - {fileID: 8300000, guid: b73056f604a840f41b0b8dd65135eee8, type: 3}
+  - {fileID: 8300000, guid: faeb3a9041f3cae4082716cc611ba09a, type: 3}
+  neutralClips:
+  - {fileID: 8300000, guid: d4e2250d548e4704d905f8d6ee15e6f3, type: 3}
+  - {fileID: 8300000, guid: 439bcfe9d4add4945aa80e0221a12255, type: 3}
+  - {fileID: 8300000, guid: f51d1f46ec5360d41afeba5f20551e3d, type: 3}
+  - {fileID: 8300000, guid: b701bb950f39b854c823329dedf44820, type: 3}
+  angryAnimParam: 
+  fleeAnimParam: 
+  footstepClips:
+  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
+  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+  - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
+  - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
+  - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
+  - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
+  - {fileID: 8300000, guid: dd1af302b8902684d9381de1f2d3a5af, type: 3}
+  - {fileID: 8300000, guid: 67c8b33e424ccdc4486edf538ab91c5a, type: 3}
+  - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
+  - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}
+  footstepVolume: 0.4
+  fleeFootstepMultiplier: 1.4
+--- !u!114 &3698993453521545735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746488563904248690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c57aa982b0cdb4ea95ba591694c694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlashFriends.PhotoSubject
+  subjectType: 0
+  tags: []
+  detectionPoint: {fileID: 367325760741997441}
+--- !u!114 &5810949002199040779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746488563904248690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9162e11ba3679be41a1e61f7ccde0cd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlashFriends.NpcFootstepRelay

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2abac41b4baa85147bc62d1c422efd5c, type: 3}
+  m_Name: Quest_2NPCs
+  m_EditorClassIdentifier: Assembly-CSharp::FlashFriends.PhotoQuest
+  title: Double portrait
+  description: "Prenez en photo 2 passants dans le m\xEAme cadre."
+  icon: {fileID: 0}
+  conditionType: 1
+  requiredSubjectType: 0
+  requiredTag: 
+  conditionValue: 2
+  scoreReward: 150
